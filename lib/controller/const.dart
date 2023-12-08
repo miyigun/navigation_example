@@ -2,52 +2,52 @@ import 'package:flutter/material.dart';
 import 'package:navigation_example/model/category.dart';
 
 var DUMMY_CATEGORIES= <Category> [
-  Category(
+  const Category(
       id: "c1",
       title: "Health",
       color: Colors.red,
   ),
-  Category(
+  const Category(
     id: "c2",
     title: "Wellness",
     color: Colors.deepOrange,
   ),
-  Category(
+  const Category(
     id: "c3",
     title: "Politics",
     color: Colors.black54,
   ),
-  Category(
+  const Category(
     id: "c4",
     title: "Travel",
     color: Colors.green,
   ),
-  Category(
+  const Category(
     id: "c5",
     title: "Internet",
     color: Colors.yellow,
   ),
-  Category(
+  const Category(
     id: "c6",
     title: "Lifestyle",
     color: Colors.indigo,
   ),
-  Category(
+  const Category(
     id: "c7",
     title: "Headlines",
     color: Colors.pink,
   ),
-  Category(
+  const Category(
     id: "c8",
     title: "Sports",
     color: Colors.orange,
   ),
-  Category(
+  const Category(
     id: "c9",
     title: "Science",
     color: Colors.blueAccent,
   ),
-  Category(
+  const Category(
     id: "c10",
     title: "Environment",
     color: Colors.redAccent,

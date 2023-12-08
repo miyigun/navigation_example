@@ -6,10 +6,10 @@ class TabsView extends StatefulWidget {
   const TabsView({Key? key}) : super(key: key);
 
   @override
-  _TabsViewState createState() => _TabsViewState();
+  TabsViewState createState() => TabsViewState();
 }
 
-class _TabsViewState extends State<TabsView> {
+class TabsViewState extends State<TabsView> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

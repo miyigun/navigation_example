@@ -8,7 +8,7 @@ class NewsItem extends StatelessWidget {
   final String imageUrl;
   final Nature nature;
 
-  const NewsItem({
+  const NewsItem({super.key,
     required this.id,
     required this.title,
     required this.imageUrl,
